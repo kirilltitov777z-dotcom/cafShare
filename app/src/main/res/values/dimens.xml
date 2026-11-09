@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="card_radius">24dp</dimen>
+    <dimen name="spacing">12dp</dimen>
+    <dimen name="icon_size">52dp</dimen>
+</resources>

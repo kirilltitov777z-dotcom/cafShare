@@ -1,0 +1,2 @@
+rootProject.name = "cafShare"
+include ':app'

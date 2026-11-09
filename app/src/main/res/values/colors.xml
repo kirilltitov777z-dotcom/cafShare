@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="caf_bg">#0A0A0A</color>
+    <color name="caf_surface">#141414</color>
+    <color name="caf_card">#1C1C1C</color>
+    <color name="caf_text">#F2F2F2</color>
+    <color name="caf_text_muted">#9E9E9E</color>
+    <color name="caf_accent">#8CB8FF</color>
+    <color name="caf_accent2">#C88CFF</color>
+    <color name="caf_divider">#262626</color>
+    <color name="caf_ripple">#33FFFFFF</color>
+</resources>

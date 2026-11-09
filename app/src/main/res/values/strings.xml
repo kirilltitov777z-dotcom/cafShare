@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">cafShare</string>
+    <string name="tab_apps">Приложения</string>
+    <string name="tab_apk">APK-файлы</string>
+    <string name="search_hint">Поиск приложений…</string>
+
+    <string name="btn_send">Отправить</string>
+    <string name="btn_save">Сохранить</string>
+    <string name="btn_install">Установить</string>
+    <string name="btn_open">Открыть</string>
+    <string name="cancel">Отмена</string>
+    <string name="ok">ОК</string>
+    <string name="refresh">Обновить</string>
+    <string name="about">О приложении</string>
+    <string name="pick_apk">Выбрать APK</string>
+
+    <string name="empty_apps">Приложения не найдены</string>
+    <string name="empty_apps_search">Ничего не найдено по запросу</string>
+    <string name="empty_apk">APK-файлов пока нет.\nПолучите файл через «Поделиться» или выберите вручную.</string>
+    <string name="empty_apk_search">APK по запросу не найдены</string>
+
+    <string name="meta_fmt">v%1$s · %2$s</string>
+    <string name="apk_meta_fmt">%1$s · %2$s</string>
+    <string name="system_badge"> · системное</string>
+    <string name="share_via">Отправить через…</string>
+
+    <string name="install_title">Установить приложение?</string>
+    <string name="install_blocked">Разрешите cafShare установку неизвестных приложений в настройках системы.</string>
+    <string name="open_settings">Настройки</string>
+    <string name="install_failed">Не удалось открыть установщик</string>
+    <string name="share_failed">Не удалось отправить APK</string>
+    <string name="save_failed">Не удалось сохранить APK</string>
+
+    <string name="saved_fmt">Сохранено: %1$s</string>
+    <string name="imported_fmt">Получено: %1$s</string>
+    <string name="import_failed">Не удалось получить файл</string>
+    <string name="updated">Обновлено</string>
+    <string name="storage_permission">Нужно разрешение, чтобы искать APK на устройстве</string>
+
+    <string name="about_text">Версия %1$s\n\nЛёгкий менеджер APK: отправка и приём приложений, сохранение в Downloads. Material You, без лишних библиотек. Работает на Android 7.0+.</string>
+</resources>

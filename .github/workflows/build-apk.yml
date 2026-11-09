@@ -1,0 +1,32 @@
+name: Build cafShare APK
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+
+      - name: Install Gradle 8.9
+        run: |
+          wget -q https://services.gradle.org/distributions/gradle-8.9-bin.zip
+          unzip -q gradle-8.9-bin.zip -d $HOME
+          echo "$HOME/gradle-8.9/bin" >> $GITHUB_PATH
+
+      - name: Build Debug APK
+        run: $HOME/gradle-8.9/bin/gradle assembleDebug --no-daemon --stacktrace
+
+      - name: Upload APK artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: cafShare-debug
+          path: app/build/outputs/apk/debug/*.apk
